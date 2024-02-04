@@ -51,6 +51,13 @@ export function EmojiPickerPopup() {
     };
   }, [open, setOpen]);
 
+  // reset search bar when the popup is closed
+  useEffect(() => {
+    if (!open) {
+      setCurrentEmojies(allEmojies);
+    }
+  }, [open]);
+
   if (!open) {
     return null;
   }
