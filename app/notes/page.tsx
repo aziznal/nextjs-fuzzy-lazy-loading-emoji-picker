@@ -5,6 +5,14 @@ export default function Notes() {
 
       <ul className="list-decimal pl-4">
         <li>Finding a full emoji database is freaking hard.</li>
+
+        <li>
+          While user is using search input, a debounce makes things smoother
+        </li>
+
+        <li>
+          viewport virtualization gives significant performance improvements.
+        </li>
       </ul>
     </div>
   );
