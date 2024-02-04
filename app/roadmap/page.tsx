@@ -13,7 +13,9 @@ export default function Roadmap() {
             Find emoji database/lib (went with <code>node-emoji</code>)
           </TodoItem>
 
-          <TodoItem>Add toggle-able emoji picker component</TodoItem>
+          <TodoItem checked>Add toggle-able emoji picker component</TodoItem>
+
+          <TodoItem checked>Add search</TodoItem>
 
           <TodoItem>Add lazy loading</TodoItem>
 
@@ -24,8 +26,6 @@ export default function Roadmap() {
           </TodoItem>
 
           <TodoItem>Add emoji groupings (e.g. smileys, animals, etc.)</TodoItem>
-
-          <TodoItem>Add search</TodoItem>
 
           <TodoItem>Add recent emojis</TodoItem>
         </section>
